@@ -12,7 +12,7 @@ const sortCars = (cars) => {
 
 // This function will then take the sorted cars and create a table to display them
 const createTable = (sortedCars) => {
-  let output = '<tr></tr>'
+  let output = ''
   sortedCars.forEach((car) => {
     output += `
       <tr id="${car.id}">
